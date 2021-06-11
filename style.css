@@ -1,0 +1,128 @@
+html {
+	color: rgb(10, 10, 10);
+	background-image: url(explosion.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 10px solid gray;
+	text-align: center;
+
+}
+h1{
+	font-size: 100px;
+	font-family: monospace, monaco; 
+	font-style: italic;
+	font-weight: bolder; 
+	text-shadow: 10px 10px 10px gray;
+}
+h2{
+	font-family: sans-serif, arial;
+	font-size: 30px;
+	font-style: italic;
+}
+h3{
+	font-family: sans-serif, arial;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 900;
+}
+h4{
+	font-size: 20px;
+	font-family: sans-serif, arial;
+	font-weight: bolder;
+}
+#temas ul {
+	list-style: none;
+	display: inline-block;
+	font-size: 30px;
+	font-family: sans-serif, arial;
+	font-style: italic;
+	font-weight: bolder;
+	padding: 0px;
+	margin-left: -50px;
+}
+#temas 
+ul li::before{
+content: "\22C6";  
+display: inline-block;
+color: #454B49  ; 
+padding-right: 20px;
+font-size: 50px;
+line-height: 50px;
+vertical-align: 0px;
+width: 15px;
+}
+#temas li{
+	text-shadow: 2px 2px 2px gray;
+	box-shadow: 
+}
+#temas p{
+	padding: 20px;
+	margin-top: 0px;
+}
+.container{
+	display: inline-grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 50px;
+	padding: 70px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  font-size: 25px;
+  text-align: center;
+  margin: 5px;
+ }
+
+#libros li{
+	list-style: none;
+	display:inline;
+	padding: 50px;
+	margin-left: -80px;
+}
+
+.img-circle{
+	border-radius: 20%;
+	border: white 10px groove;
+	box-shadow: 6px 6px 6px gray;
+}
+iframe{
+	margin: 50px;
+}
+
+p{
+	font-size: 20px;
+	font-family: sans-serif,arial;
+	font-weight: bolder;
+	margin-top: -50px;
+}
+form{
+	margin-top: 10px;
+	margin-left: 25px;
+	padding: 60px;
+}
+
+#boton{
+	border: #2e518b 2px solid;
+	border-radius: 20%;
+	background-color: #2e518b;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bolder;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 20px;
+	margin-left: 25px;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+
+img{
+	border-radius: 10%;
+	box-shadow: 6px 6px 6px gray;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+
+
